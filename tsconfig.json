@@ -9,7 +9,14 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"],
+      "src": ["./src"],
+      "screens": ["./src/screens"],
+      "components": ["./src/components"]
+    }
   },
   "exclude": [
     "node_modules",

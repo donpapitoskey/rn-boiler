@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "src": "rn-boiler/src",
+          "components": "rn-boiler/src/components",
+          "screens": "rn-boiler/src/screens"
+        }
+      }
+    ]
+  ]
+}
