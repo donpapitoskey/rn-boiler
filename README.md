@@ -2,6 +2,8 @@
 
 This is supposed to be a boilet plate using manually configured typescript for mobile  in linux. It has already configured some settings for babel module resolver and react navigation 5 and the respective react versions for it to work properly.
 
+Warning: when cloning with a different project name, you must make sure all the text in the development folder have the same name. HINT: search for rn-boiler all along the folders and replace it with your project name
+
 ## Main libraries
 
 The used libraries for this boilerplate were:
